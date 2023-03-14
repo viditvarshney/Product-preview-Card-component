@@ -115,25 +115,29 @@ footer {
     }
     .full-box {
         position: static;
-        width: 320px;
-        margin: 10%;
+        width: 360px;
+        margin: 10% 7% 0 3%;
         
         
     }
     .left-box {
-        height: 300px;
-        width: 350px;
+        height: 250px;
+        width: 360px;
         border-radius: 10px 10px 0 0;
         background-image: url(../../images/image-product-mobile.jpg);
-        background-size: 350px 300px;
+        background-size: 360px 250px;
         
     }
     .right-box {
         padding: 25px;
+
+    }
+    .cart-icon {
+        padding: 3%;
     }
 
     footer {
         position: relative;
-        top: 350px;
+        top: 280px;
     }
 }
