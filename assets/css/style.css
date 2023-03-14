@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+
+.full-box {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 10px;
+    width: 580px;
+    height: 500px;
+    
+}
+
+
+/* left box */
+
+.left-box {
+    /* background-color: purple; */
+    background-image: url(../../images/image-product-desktop.jpg);
+    background-size: 290px 500px;
+    border-radius: 10px 0 0 10px;
+    
+}
+
+
+/* Right box */
+
+.right-box {
+    background-color: #fff;
+    border-radius: 0 10px 10px 0;
+    padding: 5% 4%;
+}
+
+
+.perfume {
+    
+    letter-spacing: 3px;
+    color: hsl(228, 12%, 48%);
+}
+
+.heading-h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+}
+
+.paragraph {
+    color: hsl(228, 12%, 48%);
+    padding: 5% 0;
+}
+
+/* Prices */
+
+.prices { 
+    text-align: left
+}
+
+.discount-price {
+    display: inline;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.mrp-price {
+    display: inline;
+    position: relative;
+    left: 20px;
+    bottom: 6px;
+    text-decoration:line-through;
+    
+}
+
+/* Button */
+
+.cart-button {
+    text-align: center;
+}
+
+
+
+
+
+/* Footer */
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
